@@ -1,0 +1,32 @@
+
+header {
+    background-color: #011F32;
+    
+}
+
+.titulo_logo {
+width: 200px;    
+height: 100px;
+margin-top: 20px;
+margin-left: 40%;
+background-color: #011F32;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+}
+
+.logo {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin: 30px;
+
+}
+
+#team_name {
+    position: relative;
+    font-size: 4em;
+    color: azure;
+    
+}
