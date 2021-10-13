@@ -1,12 +1,11 @@
 .descripcion_quienes_somos {
     position: relative;
-    margin: 100px 70px 0 60px;
-    padding: 20px 0 0 0;
+    margin: 100px 0 0 30px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    align-content: center;
-    width: 80%;
+    align-items: center;
+    width: 90%;
     height: 50px;
     border:solid ivory;
     
