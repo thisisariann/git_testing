@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="/git_testing/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,13 +13,14 @@
   <body>
     <h1>R2D5 CONÓCENOS</h1>
     <section class="descripcion">
-        <form action="/action_page.php">
+        <form action="/action.php">
             <label for="name">Nombre:</label>
-            <input type="text" id="fname" name="fname">
+            <input type="text" id="name" name="name">
             <label for="correo">Correo:</label>
-            <input type="text" id="lname" name="lname">
+            <input type="email" id="mail" name="direccionmail" placeholder="example@example.com">
             <label for="correo">Mensaje:</label>
-            <input type="submit" value="Submit">
+            <textarea name="mensaje"> </textarea> 
+             <input type="submit" value="Enviar"/>
           </form>
     </section>
   </body>
