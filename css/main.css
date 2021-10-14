@@ -3,7 +3,11 @@
 @import "components/footer.css";
 @import "components/body.css";
 
-
 * {
   background-color: #011f32;
+}
+
+p {
+  font-family: "Space Mono", monospace;
+  color: white;
 }
