@@ -3,6 +3,7 @@
 @import "components/footer.css";
 @import "components/body.css";
 
+
 * {
-    background-color: #011F32;
+  background-color: #011f32;
 }
