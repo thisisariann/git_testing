@@ -1,22 +1,39 @@
 .descripcion_quienes_somos {
-    position: relative;
-    margin: 100px 0 0 30px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    width: 90%;
-    height: 50px;
-    border:solid ivory;
-    
+  position: relative;
+  margin: 100px 0 0 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  border: solid ivory;
 }
 
 .descripcion {
-    color: ivory;
-    font-size: 1.5em;
+  color: ivory;
+  font-size: 1.5em;
 }
 
-form {
-    color: white;
-    
+.formulario {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+label {
+  color: white;
+  font-size: 25px;
+}
+input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+textarea {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
 }
