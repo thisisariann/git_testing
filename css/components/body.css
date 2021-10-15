@@ -1,23 +1,4 @@
-.descripcion_quienes_somos {
-  font-family: "Space Mono", monospace;
-  font-size: 1em;
-  position: relative;
-  margin: 100px 0 0 35px;
-  box-sizing: content-box;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: center;
-  align-items: center;
-  width: 90%;
-  height: 80px;
-  border: 2px solid ivory;
-}
 
-.descripcion {
-  color: ivory;
-  font-size: 1.5em;
-  text-align: center;
-}
 
 #cartas {
   display: flex;
