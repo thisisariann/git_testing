@@ -1,0 +1,63 @@
+.descripcion_quienes_somos {
+  font-family: "Space Mono", monospace;
+  font-size: 1em;
+  position: relative;
+  margin: 100px 0 0 35px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: center;
+  align-items: center;
+  width: 90%;
+  height: 80px;
+  border: 2px solid ivory;
+}
+
+.descripcion {
+  color: ivory;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#cartas {
+  display: flex;
+  flex-wrap: wrap;
+}
+#cartas > div {
+  height: 400px;
+  width: 300px;
+  margin: 40px auto;
+  padding: 10px;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10%;
+  background-color: grey;
+}
+.carta-imagen {
+  width: 75%;
+  border-radius: 50%;
+}
+
+.formulario {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+label {
+  color: white;
+  font-size: 25px;
+}
+input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+textarea {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
+}

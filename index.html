@@ -1,16 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="style.css" href="/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>R2D5 CONÓCENOS</h1>
-    <section class="descripcion"> 
-        
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="/css/main.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/546fed6ded.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R2D5</title>
+  </head>
+  <!-- Header -->
+  <header>
+    <section class="titulo_logo">
+      <h1 id="team_name">R2D5</h1>
+      <img class="logo" src="css/components/img/r2d2.png" alt="logo_team" />
     </section>
-</body>
+    <br />
+    <section class="descripcion_team">
+      <p class="quienes_somos">Quienes Somos</p>
+    </section>
+  </header>
+  <!-- Body -->
+  <body>
+    <section class="descripcion_quienes_somos">
+      <p class="descripcion">Futuros profesionales de Full Stack y Frond End</p>
+    </section>
+    <div id="cartas">
+      <div class="carta">
+        <img
+          src="/css/components/img/Marta.png"
+          alt="Imagen"
+          class="carta-imagen"
+        />
+        <h3>Marta</h3>
+        <p>Fullstack developer</p>
+      </div>
+      <div class="carta">
+        <img
+          src="/css/components/img/ari.jpeg"
+          alt="Imagen"
+          class="carta-imagen"
+        />
+        <h3>Ariann</h3>
+        <p>Fullstack developer</p>
+      </div>
+      <div class="carta">
+        <img
+          src="/css/components/img/martinavatar.png"
+          alt="Imagen"
+          class="carta-imagen"
+        />
+        <h3>Martin</h3>
+        <p>Fullstack developer</p>
+      </div>
+      <div class="carta">
+        <img
+          src="/css/components/img/avatarRuben.jpg"
+          alt="Imagen"
+          class="carta-imagen"
+        />
+        <h3>Ruben</h3>
+        <p>Fullstack developer</p>
+      </div>
+      <div class="carta">
+        <img
+          src="/css/components/img/biplop.jpg"
+          alt="Imagen"
+          class="carta-imagen"
+        />
+        <h3>Biplop</h3>
+        <p>Fullstack developer</p>
+      </div>
+    </div>
+    <!-- Formulario -->
+    <section class="formulario">
+      <form action="#">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" />
+        <label for="correo">Correo</label>
+        <input
+          type="email"
+          id="mail"
+          name="direccionmail"
+          placeholder="example@example.com"
+        />
+        <label for="correo">Mensaje</label>
+        <textarea name="mensaje"> </textarea>
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+  </body>
+  <!-- Footer -->
+  <footer>
+    <div class="container_footer">
+      <div class="areafooter">
+        <div class="logo">
+          <img src="css/components/img/r2d2.png" alt="R2D2" />
+        </div>
+        <div class="logoname">
+          <p>R2D5</p>
+        </div>
+      </div>
+      <div class="areafooter">
+        <h2>Soluciones</h2>
+        <a href="#">Desarrollo Web</a>
+        <a href="#">Desarrollo App</a>
+        <a href="#">Desarrollo IOS</a>
+        <a href="#">Desarrollo Android</a>
+      </div>
+      <div class="areafooter">
+        <h2>Compañia</h2>
+        <a href="#">Acerca de</a>
+        <a href="#">Trabajos</a>
+        <a href="#">Procesos</a>
+        <a href="#">Servicios</a>
+      </div>
+      <div class="areafooter">
+        <h2>Redes Sociales</h2>
+        <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+        <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+        <a href="#"><i class="fab fa-instagram-square"></i>Instagram</a>
+      </div>
+    </div>
+    <div class="copyrightfooter">
+      <hr />
+      <p>© Copyright <b>R2D5</b></p>
+    </div>
+  </footer>
 </html>
