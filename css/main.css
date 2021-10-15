@@ -10,9 +10,11 @@
 p {
   font-family: "Space Mono", monospace;
   color: white;
+  background: none;
 }
  
 h3 {
     font-family: "Space Mono", monospace;
-    color:white
+    color:white;
+    background: none;
 }
