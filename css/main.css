@@ -18,3 +18,88 @@ h3 {
     color:white;
     background: none;
 }
+
+
+@media screen and (max-width: 420px){
+
+    p {
+        font-family: "Space Mono", monospace;
+        color: white;
+        background: none;
+        font-size: 0.8em;
+      }
+       
+      h3 {
+          font-family: "Space Mono", monospace;
+          color:white;
+          background: none;
+          font-size: 0.8em;
+      }
+   
+    .descripcion_quienes_somos {
+        font-family: "Space Mono", monospace;
+        font-size: 0.8em;
+        position: relative;
+        margin: 100px 12px 0 12px;
+        box-sizing: content-box;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: center;
+        align-items: center;
+        width: 50%;
+        height: 50px;
+        border: 2px solid ivory;
+        box-sizing: content-box;
+      }
+      
+      .descripcion {
+        color: ivory;
+        font-size: 1em;
+        text-align: center;
+      }
+      
+      #cartas {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #cartas > div {
+        height: 200px;
+        width: 100px;
+        margin: 40px auto;
+        padding: 10px;
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 10%;
+        background-color: grey;
+      }
+      .carta-imagen {
+        width: 75%;
+        border-radius: 50%;
+      }
+      
+      .formulario {
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+      
+      label {
+        color: white;
+        font-size: 25px;
+      }
+      input {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: white;
+      }
+      
+      textarea {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: white;
+      }
+      
+}
+
