@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-#cartas > div {
+#cartas > section {
   height: 400px;
   width: 300px;
   margin: 40px auto;
